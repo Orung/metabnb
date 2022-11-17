@@ -93,12 +93,13 @@ function Places() {
     <div className="App">
       <Header />
 
+      <div className="pt-4">
       <Container className="my-5 position-relative">
         <div
           className="d-flex justify-content-between border gap-3 rounded p-2 position-absolute-lg"
           style={{ right: "10px" }}
         >
-          <span>Location</span>
+          <span className="location">Location</span>
           <svg
             width="24"
             height="24"
@@ -189,7 +190,7 @@ function Places() {
             <div className="row">
               {thumnailContent.map((thumbnailcon) => (
                 <div className="col-12 col-md-6 col-lg-3 mb-3">
-                  <div className="border rounded p-2">
+                  <div className="border rounded-15 p-2">
                     <div className="p-2">
                       <img
                         src={thumbnailcon.thumnail}
@@ -198,8 +199,8 @@ function Places() {
                       />
                     </div>
                     <div className="d-flex justify-content-between">
-                      <p>Desert king</p>
-                      <p>
+                      <p className="f-12">Desert king</p>
+                      <p className="f-12">
                         <b>1MBT per night</b>
                       </p>
                     </div>
@@ -218,7 +219,7 @@ function Places() {
           <Tab eventKey="profile" title="Cottage"><div className="row">
               {thumnailContent.map((thumbnailcon) => (
                 <div className="col-12 col-md-6 col-lg-3 mb-3">
-                  <div className="border rounded p-2">
+                  <div className="border rounded-15 p-2">
                     <div className="p-2">
                       <img
                         src={thumbnailcon.thumnail}
@@ -227,8 +228,8 @@ function Places() {
                       />
                     </div>
                     <div className="d-flex justify-content-between">
-                      <p>Desert king</p>
-                      <p>
+                      <p className="f-12">Desert king</p>
+                      <p className="f-12">
                         <b>1MBT per night</b>
                       </p>
                     </div>
@@ -248,7 +249,7 @@ function Places() {
           <div className="row">
               {thumnailContent.map((thumbnailcon) => (
                 <div className="col-12 col-md-6 col-lg-3 mb-3">
-                  <div className="border rounded p-2">
+                  <div className="border rounded-15 p-2">
                     <div className="p-2">
                       <img
                         src={thumbnailcon.thumnail}
@@ -257,8 +258,8 @@ function Places() {
                       />
                     </div>
                     <div className="d-flex justify-content-between">
-                      <p>Desert king</p>
-                      <p>
+                      <p className="f-12">Desert king</p>
+                      <p className="f-12">
                         <b>1MBT per night</b>
                       </p>
                     </div>
@@ -278,7 +279,7 @@ function Places() {
           <div className="row">
               {thumnailContent.map((thumbnailcon) => (
                 <div className="col-12 col-md-6 col-lg-3 mb-3">
-                  <div className="border rounded p-2">
+                  <div className="border rounded-15 p-2">
                     <div className="p-2">
                       <img
                         src={thumbnailcon.thumnail}
@@ -287,8 +288,8 @@ function Places() {
                       />
                     </div>
                     <div className="d-flex justify-content-between">
-                      <p>Desert king</p>
-                      <p>
+                      <p className="f-12">Desert king</p>
+                      <p className="f-12">
                         <b>1MBT per night</b>
                       </p>
                     </div>
@@ -308,7 +309,7 @@ function Places() {
           <div className="row">
               {thumnailContent.map((thumbnailcon) => (
                 <div className="col-12 col-md-6 col-lg-3 mb-3">
-                  <div className="border rounded p-2">
+                  <div className="border rounded-15 p-2">
                     <div className="p-2">
                       <img
                         src={thumbnailcon.thumnail}
@@ -317,8 +318,8 @@ function Places() {
                       />
                     </div>
                     <div className="d-flex justify-content-between">
-                      <p>Desert king</p>
-                      <p>
+                      <p className="f-12">Desert king</p>
+                      <p className="f-12">
                         <b>1MBT per night</b>
                       </p>
                     </div>
@@ -338,7 +339,7 @@ function Places() {
           <div className="row">
               {thumnailContent.map((thumbnailcon) => (
                 <div className="col-12 col-md-6 col-lg-3 mb-3">
-                  <div className="border rounded p-2">
+                  <div className="border rounded-15 p-2">
                     <div className="p-2">
                       <img
                         src={thumbnailcon.thumnail}
@@ -347,8 +348,8 @@ function Places() {
                       />
                     </div>
                     <div className="d-flex justify-content-between">
-                      <p>Desert king</p>
-                      <p>
+                      <p className="f-12">Desert king</p>
+                      <p className="f-12">
                         <b>1MBT per night</b>
                       </p>
                     </div>
@@ -368,7 +369,7 @@ function Places() {
           <div className="row">
               {thumnailContent.map((thumbnailcon) => (
                 <div className="col-12 col-md-6 col-lg-3 mb-3">
-                  <div className="border rounded p-2">
+                  <div className="border rounded-15 p-2">
                     <div className="p-2">
                       <img
                         src={thumbnailcon.thumnail}
@@ -377,8 +378,8 @@ function Places() {
                       />
                     </div>
                     <div className="d-flex justify-content-between">
-                      <p>Desert king</p>
-                      <p>
+                      <p className="f-12">Desert king</p>
+                      <p className="f-12">
                         <b>1MBT per night</b>
                       </p>
                     </div>
@@ -396,6 +397,7 @@ function Places() {
           </Tab>
         </Tabs>
       </Container>
+      </div>
       <Footer />
     </div>
   );

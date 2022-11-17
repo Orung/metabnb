@@ -12,7 +12,7 @@ function Footer() {
       <div className="footer bg-black py-5">
         <Container>
           <div className="row py-5">
-            <div className="col-12 col-md-6 col-lg-3">
+            <div className="col-12 col-md-6 col-lg-4">
               <img src={logoFooter} alt="logo" />
               <div className="my-5 d-flex gap-5">
                 <svg
@@ -70,34 +70,37 @@ function Footer() {
                   />
                 </svg>
               </div>
-              <p className="text-white"> &copy; {new Date().getFullYear()} Metabnb</p>
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-              <h4 className="text-white mb-3 fw-bold">Community</h4>
-              <ul className="list-unstyled d-flex gap-4 flex-column">
-                <li><Link to="/" className="text-white text-decoration-none">NFT</Link></li>
-                <li><Link to="/" className="text-white text-decoration-none">Tokens</Link></li>
-                <li><Link to="/" className="text-white text-decoration-none">Landlords</Link></li>
-                <li><Link to="/" className="text-white text-decoration-none">Discord</Link></li>
+              <h4 className="text-white mb-3 fw-bold size-ft">Community</h4>
+              <ul className="list-unstyled d-flex gap-2 flex-column">
+                <li><Link to="/" className="text-white text-decoration-none footer-link">NFT</Link></li>
+                <li><Link to="/" className="text-white text-decoration-none footer-link">Tokens</Link></li>
+                <li><Link to="/" className="text-white text-decoration-none footer-link">Landlords</Link></li>
+                <li><Link to="/" className="text-white text-decoration-none footer-link">Discord</Link></li>
               </ul>
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-              <h4 className="text-white mb-3 fw-bold">Places</h4>
-              <ul className="list-unstyled d-flex gap-4 flex-column">
-                <li><Link to="/" className="text-white text-decoration-none">Castle</Link></li>
-                <li><Link to="/" className="text-white text-decoration-none">Farms </Link></li>
-                <li><Link to="/" className="text-white text-decoration-none">Beach</Link></li>
-                <li><Link to="/" className="text-white text-decoration-none">Learn more</Link></li>
+              <h4 className="text-white mb-3 fw-bold size-ft">Places</h4>
+              <ul className="list-unstyled d-flex gap-2 flex-column">
+                <li><Link to="/" className="text-white text-decoration-none footer-link">Castle</Link></li>
+                <li><Link to="/" className="text-white text-decoration-none footer-link">Farms </Link></li>
+                <li><Link to="/" className="text-white text-decoration-none footer-link">Beach</Link></li>
+                <li><Link to="/" className="text-white text-decoration-none footer-link">Learn more</Link></li>
               </ul>
             </div>
-            <div className="col-12 col-md-6 col-lg-3">
-              <h4 className="text-white mb-3 fw-bold" >About us</h4>
-              <ul className="list-unstyled d-flex gap-4 flex-column">
-                <li><Link to="/" className="text-white text-decoration-none">Road map </Link></li>
-                <li><Link to="/" className="text-white text-decoration-none">Creators  </Link></li>
-                <li><Link to="/" className="text-white text-decoration-none">Career </Link></li>
-                <li><Link to="/" className="text-white text-decoration-none">Contact us </Link></li>
+            <div className="col-12 col-md-6 col-lg-2">
+              <h4 className="text-white mb-3 fw-bold size-ft" >About us</h4>
+              <ul className="list-unstyled d-flex gap-2 flex-column">
+                <li><Link to="/" className="text-white text-decoration-none footer-link">Road map </Link></li>
+                <li><Link to="/" className="text-white text-decoration-none footer-link">Creators  </Link></li>
+                <li><Link to="/" className="text-white text-decoration-none footer-link">Career </Link></li>
+                <li><Link to="/" className="text-white text-decoration-none footer-link">Contact us </Link></li>
               </ul>
+            </div>
+            <div>
+
+            <p className="text-white copyright"> &copy; {new Date().getFullYear()} Metabnb</p>
             </div>
           </div>
         </Container>

@@ -5,8 +5,8 @@ import connectImg from '../images/connect.png'
 function BasicExample() {
   return (
     <Accordion>
-      <Accordion.Item eventKey="0">
-        <Accordion.Header><img src={metamaskImg} alt="Metamask" className='mr-3'/>Metamask</Accordion.Header>
+      <Accordion.Item eventKey="0" className='mt-3 rounded border'>
+        <Accordion.Header><img src={metamaskImg} alt="Metamask"/><span className='ms-2'>Metamask</span></Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -17,8 +17,8 @@ function BasicExample() {
           culpa qui officia deserunt mollit anim id est laborum.
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="1">
-        <Accordion.Header><img src={connectImg} alt="WalletConnect" className='mr-3'/> WalletConnect</Accordion.Header>
+      <Accordion.Item eventKey="1" className='mt-3 rounded border'>
+        <Accordion.Header><img src={connectImg} alt="WalletConnect" className='me-2'/> WalletConnect</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="white" expand="lg">
         <Container>
           <Navbar.Brand href="#">
             <img src={logo} alt="logo" />
@@ -44,12 +44,12 @@ function App() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <Modal show={show} onHide={handleClose}>
+      <Modal centered show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Connect Wallet</Modal.Title>
+          <Modal.Title className="wallet">Connect Wallet</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
-          <p>Choose your preferred wallet:</p>
+        <Modal.Body className="pb-4">
+          <p className="p-wallet">Choose your preferred wallet:</p>
           <Accordion />
         </Modal.Body>
       </Modal>

@@ -52,7 +52,7 @@ function thumbnails() {
         {thumnailContent.map((thumbnailcon) => ( 
         <div className="col-12 col-md-6 col-lg-3 mb-3">
             
-              <div className="border rounded p-2">
+              <div className="border rounded-15 p-2">
                 <div className="p-2">
                 <img src={thumbnailcon.thumnail} className="size-img" alt="thumbnail" />
                 </div>

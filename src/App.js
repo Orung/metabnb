@@ -24,15 +24,15 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Container className="my-5">
+      <Container className="my-8">
         <div className="row my-5">
           <div className="col-12 col-md-6 col-lg-6">
-            <h1 className="my-5 fw-bold">
+            <h1 className="mb-5 fw-bold meta-verse">
               Rent a <span className="text-red">Place</span> away from{" "}
               <span className="text-red">Home</span> in the{" "}
               <span className="text-red">Metaverse</span>
             </h1>
-            <p className="mb-5">
+            <p className="mb-5 meta-p">
               we provide you access to luxury and affordable houses in the
               metaverse, get a chance to turn your imagination to reality at
               your comfort zone
@@ -53,7 +53,7 @@ function App() {
           <div className="col-12 col-md-5 col-lg-5 text-end">
             <div className="row">
               <div className="col-12 col-md-6 col-lg-6 pt-5 text-last">
-                <div className="w-100 mb-2">
+                <div className="w-100 mb-2 mt-3">
                   <img src={img2} alt="house" className="img-fluid"/>
                 </div>
                 <div className="w-100 mb-2">
@@ -83,7 +83,7 @@ function App() {
             </div>
             <div className="d-flex align-items-center justify-content-center">
               <img src={logo3} alt="partner logo" />
-              <span className="logo-font">OpenSea</span>
+              <span className="logo-font opensea">OpenSea</span>
             </div>
           </div>
         </Container>
@@ -93,7 +93,7 @@ function App() {
         <Container>
           <div className="row py-5">
             <div className="col-12 col-md-6 mb-4">
-              <h3 className="meta-title my-5">Metabnb NFTs</h3>
+              <h3 className="meta-title my-5 grid-title">Metabnb NFTs</h3>
               <p className="meta-text mb-5">
                 Discover our NFT gift cards collection. Loyal customers gets
                 amazing gift cards which are traded as NFTs. These NFTs gives
